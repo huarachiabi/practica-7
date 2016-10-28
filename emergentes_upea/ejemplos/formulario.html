@@ -1,0 +1,42 @@
+<!DOCTYPE html>  
+<html lang="es">  
+<head>  
+  <meta charset="UTF-8">
+  <title>PHP</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+ 
+<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+ 
+<script src="js/bootstrap.min.js"></script>
+</head>  
+<body>  
+  
+  
+<div class="container">
+<div class="col-md-4">
+ <h1>Bootstrap</h1>
+ <form role="form" action="principal.php" method="post">
+     <div class="form-group">
+	 <label for="dato1">Dato1</label>
+	 <input type="text" name="datouno" id="datouno" class="form-control" placeholder="Ingrese Nota1"/>	 	 
+	 </div>
+	 <div class="form-group">
+	 <label for="dato1">Dato1</label>
+	 <input type="text" name="datodos" id="datodos" class="form-control" placeholder="Ingrese Nota2"/>
+	 </div>
+	 <div class="form-group">
+	 <label for="dato1">Operaciones</label>
+	 <select name="combito" id="combito" class="form-control">
+	 <option value=""> Seleccione una operacion</option>
+	 <option value="sumar"> Sumar</option>
+	 <option value="restar"> Restar</option>
+	 <option value="multiplicar"> Multiplicar</option>
+	 </select>
+	 </div>
+	 <p><input type="submit" class="btn btn-default" value="calcular" name="enviar"></p>
+</form>
+</div>
+</div>
+
+</body>  
+</html> 
